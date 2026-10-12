@@ -158,7 +158,7 @@
     }
   ],
   "description": "自动识别并下载网页视频，支持多平台解析、跨标签页批量下载、视频预览、质量偏好与实时数量角标。开源免费。",
-  "homepage_url": "https://github.com/natefox2017/video_downloader",
+  "homepage_url": "https://github.com/gengyun-lab/video_downloader",
   "author": "natefox2017",
   "host_permissions": [
     "<all_urls>"

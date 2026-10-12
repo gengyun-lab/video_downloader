@@ -61,8 +61,8 @@ test("switch overrides the stronger Pico [role=switch] selector and thumb", () =
 test("feedback links share styled UI buttons and keep navigation semantics", () => {
   const html = read("options.html");
   const css = read("options.css");
-  assert.match(html, /<a class="ui-button" href="https:\/\/github\.com\/natefox2017\/video_downloader\/issues\/new"/);
-  assert.match(html, /<a class="ui-button ui-button--quiet" href="https:\/\/github\.com\/natefox2017\/video_downloader"/);
+  assert.match(html, /<a class="ui-button" href="https:\/\/github\.com\/gengyun-lab\/video_downloader\/issues\/new"/);
+  assert.match(html, /<a class="ui-button ui-button--quiet" href="https:\/\/github\.com\/gengyun-lab\/video_downloader"/);
   assert.doesNotMatch(html, /class="secondary outline" role="button"/);
   assert.match(css, /\.feedback-actions a\.ui-button\s*\{[^}]*min-height:\s*38px;/s);
   assert.match(html, /设置会自动保存在当前浏览器中/);

@@ -1,6 +1,6 @@
 # video_downloader
 
-> GitHub: https://github.com/natefox2017/video_downloader
+> GitHub: https://github.com/gengyun-lab/video_downloader
 
 A Chrome extension (Manifest V3) that automatically detects videos on web pages and downloads them.
 
@@ -32,7 +32,7 @@ A Chrome extension (Manifest V3) that automatically detects videos on web pages 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/natefox2017/video_downloader.git
+   git clone https://github.com/gengyun-lab/video_downloader.git
    ```
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable **Developer mode** (top right)
