@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   automerge:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, grok-box]
     if: github.event.pull_request.draft == false
     steps:
       - name: Enable auto-merge (squash)
