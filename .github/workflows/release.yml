@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   release:
-    runs-on: [self-hosted, linux, x64, grok-box]
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - name: Check out tagged source
