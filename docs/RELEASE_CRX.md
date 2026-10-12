@@ -53,7 +53,7 @@ For a new self-hosted CRX3 project with no existing key:
 
 ~~~bash
 openssl genrsa -out video-downloader.pem 2048
-gh secret set CRX_PRIVATE_KEY --repo gengyun-lab/video_downloader < video-downloader.pem
+gh secret set CRX_PRIVATE_KEY --repo natefox2017/video_downloader < video-downloader.pem
 ~~~
 
 Securely back up the PEM. Never commit or attach it to a release. Losing or replacing this key changes the extension ID for self-hosted CRX updates. The Chrome Web Store uses its own signing/distribution flow.
