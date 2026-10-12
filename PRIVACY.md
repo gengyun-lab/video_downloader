@@ -24,4 +24,4 @@ None. The extension works fully offline except for loading the video pages thems
 
 ## Contact
 
-Open an issue at https://github.com/natefox2017/video_downloader/issues
+Open an issue at https://github.com/gengyun-lab/video_downloader/issues
